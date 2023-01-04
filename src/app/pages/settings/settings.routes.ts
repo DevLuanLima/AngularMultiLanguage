@@ -1,9 +1,9 @@
-import { Route } from "@angular/router";
-import { SettingsComponent } from "./settings.component";
+import { Route } from '@angular/router';
+import { SettingsComponent } from './settings.component';
 
-export const SettingsRoutes : Route[] = [
+export const SettingsRoutes: Route[] = [
     {
         path: '',
-        component: SettingsComponent
+        component: SettingsComponent,
     },
 ];

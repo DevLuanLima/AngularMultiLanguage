@@ -1,0 +1,9 @@
+{
+    "home": {
+        "title": "Página Principal",
+        "welcome_text": "Bem-vindo a esse exemplo de Aplicativo Angular com Multi-Languagens"
+    },
+    "settings":{
+        "title": "Página de Configurações"
+    }
+}

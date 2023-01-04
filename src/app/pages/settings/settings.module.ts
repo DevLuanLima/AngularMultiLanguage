@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { SettingsRoutes } from './settings.routes';
 import { SettingsComponent } from './settings.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 
@@ -11,7 +12,7 @@ import { SettingsComponent } from './settings.component';
   exports: [SettingsComponent],
   imports: [
     CommonModule,
-    RouterModule.forChild(SettingsRoutes)
+    RouterModule.forChild(SettingsRoutes), TranslateModule
   ]
 })
 export class SettingsModule { }

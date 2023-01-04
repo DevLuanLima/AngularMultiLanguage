@@ -1,0 +1,9 @@
+{
+    "home": {
+    "title": "Home page",
+    "welcome_text": "Welcome to this application example"
+    },
+    "settings": {
+    "title": "Settings page"
+    }
+}
